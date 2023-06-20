@@ -6,7 +6,8 @@ import static java.lang.Thread.sleep;
 
 public class LogIng extends GooglechromeRunner {
 
-    @Test (priority = 1)
+
+    @Test(priority = 1)
     public void  LoginWithInCorrectData () throws InterruptedException {
 
         LogInStep step1 = new LogInStep(driver);
